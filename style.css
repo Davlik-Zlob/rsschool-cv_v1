@@ -1,7 +1,48 @@
+header {
+border: 1px dotted #fff;
+}
+
+main {
+border: 1px dotted #fff;
+}
+
+footer {
+border: 1px dotted #fff;
+}
+
 body {
-background: lightgray;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background: #9C9C9C;
+}
+
+.container {
+max-width: 1440px;
+margin: 0 auto;
+}
+
+.nav-ul {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.nav-li {
+color: #fff;
+margin: 0 20px;
+}
+
+.link {
+color: #fff;
+font-size: 14px;
 }
 
 h1 {
-color: dimgray;
+text-align: center;
+color: #0800CB;
+}
+
+.img-logo {
+width: 100px;
 }
